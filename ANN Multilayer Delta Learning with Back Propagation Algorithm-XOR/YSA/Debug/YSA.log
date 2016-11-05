@@ -1,0 +1,39 @@
+﻿Build started 05.11.2016 22:29:27.
+     1>Project "C:\Users\Aleko\Desktop\repos\YSA-xor\YSA\YSA.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D "_UNICODE" /D "UNICODE" /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.DataVisualization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MainForm.cpp
+         MainForm.cpp
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\LinkedList.h(74): warning C4172: returning address of local variable or temporary
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\LinkedList.h(86): warning C4172: returning address of local variable or temporary
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\LinkedList.h(122): warning C4172: returning address of local variable or temporary
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(344): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(345): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(346): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(347): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(348): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(349): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(350): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(351): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(456): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(457): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(458): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(493): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(494): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(510): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(511): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(422): warning C4101: 'dist' : unreferenced local variable
+     1>c:\users\aleko\desktop\repos\ysa-xor\ysa\MainForm.h(418): warning C4101: 'd_buffer' : unreferenced local variable
+     1>MainForm.cpp(10): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aleko\Desktop\repos\YSA-xor\Debug\YSA.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\YSA.MainForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aleko\Desktop\repos\YSA-xor\Debug\YSA.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Activation.obj
+         Debug\Layer.obj
+         Debug\MainForm.obj
+         Debug\Network.obj
+         Debug\Neuron.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         YSA.vcxproj -> C:\Users\Aleko\Desktop\repos\YSA-xor\Debug\YSA.exe
+     1>Done Building Project "C:\Users\Aleko\Desktop\repos\YSA-xor\YSA\YSA.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.88
